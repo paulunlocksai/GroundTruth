@@ -135,7 +135,11 @@ footer .footer-img {
     }
 
     header {
-        padding: 40px 0 30px;
+        padding: 0;
+    }
+
+    header .container {
+        padding: 20px 40px 15px !important;
     }
 
     .logo {
@@ -152,19 +156,19 @@ footer .footer-img {
     }
 
     h1 {
-        font-size: 17px;
+        font-size: 19px;
     }
 
     h2 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .lead {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     section p {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     footer .footer-img {
@@ -174,20 +178,28 @@ footer .footer-img {
 }
 
 @media (max-width: 480px) {
+    header .container {
+        padding: 15px 40px 10px !important;
+    }
+
     .logo {
         max-width: 187px;
     }
 
     h1 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     h2 {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .lead {
-        font-size: 10px;
+        font-size: 11px;
+    }
+
+    section p {
+        font-size: 11px;
     }
 
     footer .footer-img {
